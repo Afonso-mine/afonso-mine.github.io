@@ -3,21 +3,7 @@
         "name":"Math Expression",
         "description":"Implementing a math function using matplotlib, numpy and tkinter.",
         "language":"python",
-        "code":"C = np.random.uniform(0.1, 0.7, 100)\n
-        \n
-                a = np.random.uniform(0, 10, 100)\n
-        \n
-                b = np.random.uniform(0, 10, 100)\n
-        \n
-                c = np.random.uniform(1, 300, 100)\n
-        \n
-                t = np.arange(1, 101)\n
-        \n
-                B = ((a * 0.1) / 255) * b\n
-        \n
-                A = ((c * 22.13) / 13) * 0.0135\n
-        \n
-                result = ((A + B) * C) / t",
+        "code":"C = np.random.uniform(0.1, 0.7, 100)\n\na = np.random.uniform(0, 10, 100)\n\nb = np.random.uniform(0, 10, 100)\n\nc = np.random.uniform(1, 300, 100)\n\nt = np.arange(1, 101)\n\nB = ((a * 0.1) / 255) * b\n\nA = ((c * 22.13) / 13) * 0.0135\n\nresult = ((A + B) * C) / t",
         "github":"https://github.com/afonso-mine/"
     }
 ]
