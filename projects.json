@@ -1,17 +1,23 @@
 [
     {
-        "name":"Snake AI",
-        "description":"Artificial intelligence that plays Snake.",
+        "name":"Math Expression",
+        "description":"Implementing a math function using matplotlib, numpy and tkinter.",
         "language":"python",
-        "code":"def move(board):\n    best = minimax(board)\n    return best",
-        "github":"https://github.com/afonso-mine/snake-ai"
-    },
-
-    {
-        "name":"Discord Bot",
-        "description":"A multifunction Discord bot.",
-        "language":"javascript",
-        "code":"client.on('ready',()=>{\n console.log('Ready');\n});",
-        "github":"https://github.com/afonso-mine/discord-bot"
+        "code":"C = np.random.uniform(0.1, 0.7, 100)\n
+        \n
+                a = np.random.uniform(0, 10, 100)\n
+        \n
+                b = np.random.uniform(0, 10, 100)\n
+        \n
+                c = np.random.uniform(1, 300, 100)\n
+        \n
+                t = np.arange(1, 101)\n
+        \n
+                B = ((a * 0.1) / 255) * b\n
+        \n
+                A = ((c * 22.13) / 13) * 0.0135\n
+        \n
+                result = ((A + B) * C) / t",
+        "github":"https://github.com/afonso-mine/"
     }
 ]
