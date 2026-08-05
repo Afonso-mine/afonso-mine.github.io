@@ -1,0 +1,17 @@
+[
+    {
+        "name":"Snake AI",
+        "description":"Artificial intelligence that plays Snake.",
+        "language":"python",
+        "code":"def move(board):\n    best = minimax(board)\n    return best",
+        "github":"https://github.com/afonso-mine/snake-ai"
+    },
+
+    {
+        "name":"Discord Bot",
+        "description":"A multifunction Discord bot.",
+        "language":"javascript",
+        "code":"client.on('ready',()=>{\n console.log('Ready');\n});",
+        "github":"https://github.com/afonso-mine/discord-bot"
+    }
+]
